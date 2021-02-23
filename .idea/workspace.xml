@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c627c738-53b8-4e60-92cd-0cf06b6bc088" name="Default Changelist" comment="" />
+    <list default="true" id="c627c738-53b8-4e60-92cd-0cf06b6bc088" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +15,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -125,6 +131,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1op3Kfl7nNcrMScOf60gFGFFjlA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -133,14 +140,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="C:/Kintai_server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Thinkapp\resources\views" />
       <recent name="C:\xampp\htdocs\Thinkapp\app\Models" />
       <recent name="C:\xampp\htdocs\Thinkapp\resources\views\Think" />
-      <recent name="C:\xampp\htdocs\Thinkapp\resources\views" />
       <recent name="C:\xampp\htdocs\Thinkapp\resources\views\Dashboard" />
     </key>
   </component>
@@ -173,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613969641719</updated>
       <workItem from="1613969643018" duration="15883000" />
-      <workItem from="1614045387664" duration="16886000" />
+      <workItem from="1614045387664" duration="20468000" />
     </task>
     <servers />
   </component>
