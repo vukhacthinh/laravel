@@ -21,8 +21,12 @@
 </head>
 <body>
     <div id="app">
+        @auth
+
         @include('sidebar')
         @include('header')
+        @endauth
+
         <main class="py-4">
             @yield('content')
         </main>

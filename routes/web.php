@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ThinkController;
-
+use Laravel\Socialite\Facades\Socialite;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,3 +36,9 @@ Route::get('/think/edit/{id}', [ThinkController::class, 'edit']);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('logout', [App\Http\Controllers\Auth\LoginController::class,'logout'])->name('logout');
+Route::get('redirect/{driver}', [App\Http\Controllers\Auth\LoginController::class,'redirectToProvider'])
+    ->name('login.provider');
+//    ->where('driver', implode('|', config('auth.socialite.drivers')));
+Route::get('/callback/{provider}', [App\Http\Controllers\Auth\LoginController::class,'callback']);
+//Route::get('callback/{driver}', [App\Http\Controllers\Auth\LoginController::class,'callback_social'])->name('callback.social');

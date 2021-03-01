@@ -67,6 +67,8 @@
                             </ul>
                         </div>
                     </li>
+                    <li>
+                        <button >logout</button></li>
                     <li class="dropdown topbar-user">
                         <a data-hover="dropdown" href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <img src="" alt="" class="img-responsive img-circle">&nbsp;
@@ -85,24 +87,6 @@
     </div>
 </header>
 
-<script>
-    $(document).ready(function () {
-        $(".direct-to-notice").on('click',function () {
-            event.preventDefault();
-            let self = $(this);
-            $.ajax({
-                url: base + "/notices/readNotice/" + self.attr('data-action'),
-                type: "put",
-                success: function (res) {
-                    window.location.href = self.attr('href');
-                },
-                error: function (err) {
-                }
-            });
-        });
-    });
-
-</script>
 <style>
     .not_read{
         background: antiquewhite;

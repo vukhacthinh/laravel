@@ -20,7 +20,7 @@
 
                     $c_class = "active";
                     ?>
-                    <li class="<?= $c_class ?>">
+                    <li class="<?= $c_class ?> border-li" style="width: 100%; border: 2px solid red; margin:5px 0px 0px 5px">
                         <a href="{{$e->action}}"><i class = 'fa fa-angle-right'></i><span>{{$e->name}}</span></a>
                     </li>
                     <?php endforeach; ?>
@@ -32,3 +32,8 @@
         </ul>
     </div>
 </nav>
+<style>
+    .border-li:hover{
+        background-color: white;
+    }
+</style>

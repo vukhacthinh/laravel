@@ -18,7 +18,7 @@ class ThinkController extends Controller
         //
     }
     public function index(){
-        $users = DB::table('employees')->get();
+        $users = DB::table('employees')->paginate(15);
         return view('think.index',['users' => $users]);
     }
     public function edit($id){
